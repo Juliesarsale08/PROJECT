@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Sweet Treats Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="pacifico-regular">Sweet Treats Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="login.html" class="button" id="loginBtn">Login</a></li>
+                <li><a href="signup.html" class="button" id="signupBtn">Sign Up</a></li>
+		<li>
+                    <a id="logoutBtn" class="button" style="display: none;" onclick="handleLogout()">Logout</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h2>Welcome to My Cake Wonderland!</h2>
+            <p>Explore delicious cake recipes and sweet inspirations.</p>
+        </section>
+
+        <section class="posts">
+            <article>
+                <h3>Chocolate Cake Recipe</h3>
+                <img src="chocolate-cake.jpg" alt="Chocolate Cake">
+                <p>Indulge in this rich and moist chocolate cake, perfect for any occasion.</p>
+                <a href="#">Read More</a>
+            </article>
+            <article>
+                <h3>Vanilla Buttercream Tips</h3>
+                <img src="vanilla-buttercream.jpg" alt="Vanilla Buttercream">
+                <p>Learn how to make the perfect vanilla buttercream for your cakes.</p>
+                <a href="#">Read More</a>
+            </article>
+            <article>
+                <h3>Seasonal Fruit Cakes</h3>
+                <img src="fruit-cake.jpg" alt="Fruit Cake">
+                <p>Celebrate the season with fresh fruit cakes that delight the senses.</p>
+                <a href="#">Read More</a>
+            </article>
+	    <article>
+                <h3>Red Velvet Cake Delight</h3>
+                <img src="red-velvet-cake.jpg" alt="Red Velvet Cake">
+                <p>Try this classic red velvet cake with cream cheese frosting for a special treat.</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sweet Treats Blog | Follow me on <a href="#">Instagram</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

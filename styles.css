@@ -1,0 +1,167 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #ffcccb;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.0em;
+    margin-bottom: 10px;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.button:hover {
+    //background: #ff69b4;
+    color: white;
+    //padding: 10px 5px;
+    //border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    height: 1638;
+}
+
+
+main {
+    flex: 1; /* This makes the main content take up the remaining space */
+}
+
+.hero {
+    background: url('cake-hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    //background-color: #FFFDD0;
+}
+
+article {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section h2 {
+    padding-bottom: 20px;
+}
+
+.form-section {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background: #ff69b4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.submit-button:hover {
+    background: #ff1493;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffcccb;
+    margin-top: 20px;
+}
